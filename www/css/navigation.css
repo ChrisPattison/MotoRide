@@ -1,11 +1,14 @@
 body
 {
-    background-color: #F5F6FC;
+    background-color: #2E9BDA;
     padding: 0;
     margin: 0;
     appearance:none;
     font-family: arial, sans-serif;
-    color: #111010;
+    color: #F5F6FC;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div#padding
@@ -27,3 +30,38 @@ img#bottomBar {
     left: 0;
     width: 100%;
 }
+
+#arrows {
+    margin-top: 125px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#next {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p.address{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img#blue{
+    margin-top: 40px;
+    height: 40%;
+    width: 40%;
+}
+
+img.card{
+    padding: 1vh 2vw;
+    height: 18%;
+    width: 18%;
+}
+div#hand{
+    position: absolute;
+    bottom: 140px;
+}
+
