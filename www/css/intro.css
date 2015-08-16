@@ -36,6 +36,7 @@ div#titlebox {
     margin-top: 25px;
     padding: 10px;
     border-radius: 6px;
+    opacity: 0;
 }
 
 h1#welcome
@@ -43,6 +44,7 @@ h1#welcome
     margin-top: 10px;
     text-align: center;
     font-size: 40px;
+    opacity: 0;
 }
 
 h2#built
@@ -51,6 +53,7 @@ h2#built
     font-size: 20px;
     font-style: italic;
     font-weight: normal;
+    opacity: 0;
 }
 
 h2#ultimate
@@ -58,6 +61,7 @@ h2#ultimate
     text-align: center;
     font-size: 25px;
     font-weight: normal;
+    opacity: 0;
 }
 
 span.bold
@@ -75,6 +79,7 @@ img#button
     border-radius: 2px;
     margin-top: 500px;
     vertical-align: text-bottom;
+    opacity: 0;
 }
 
 p
