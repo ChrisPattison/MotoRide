@@ -58,18 +58,18 @@ div.block {
 }
 
 p.dataname {
-    font-size: 32px;
+    font-size: 26px;
     text-align: center;
 }
 
 span.data {
-    font-size: 28px;
+    font-size: 24px;
     color: #00980B;
     font-weight: 600;
 }
 
 div.groupname {
-    font-size: 32px;
+    font-size: 28px;
     text-align: left;
     display: inline-block;
     width: 70%;
@@ -81,6 +81,11 @@ div#group2 {
     top: -150px;
     z-index: 6;
     opacity: 0;
+}
+
+p#weather
+{
+    padding-top: 5px;
 }
 
 div#group3
@@ -100,12 +105,12 @@ div#group1
 }
 
 div.solo {
-    font-size:32px;
+    font-size:28px;
     text-align: left;
 }
 
 div.groupno {
-    font-size: 36px;
+    font-size: 32px;
     text-align: right;
     display: inline-block;
     float: right;
