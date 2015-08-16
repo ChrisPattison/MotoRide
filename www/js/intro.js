@@ -1,24 +1,46 @@
+var firstClick = false;
+
 $("#button").click(function()
 	{
-		console.log("Changing to creds.html");
-		setTimeout(function()
+		if (!firstClick) {
+			setTimeout(function () {
+				$("#bikes").transit({opacity: 1}, 500);
+				$("#red").click(function () {
+					$("body").css("background-image", "url('img/introbackgroundred.png')");
+					$("#button").attr("src", "img/ridebuttonred.png");
+					$("#titlebox").css("background-color", "rgba(0,0,0,0.1)");
+				});
+				$("#blue").click(function () {
+					$("body").css("background-image", "url('img/introbackground.png')");
+					$("#button").attr("src", "img/ridebutton.png");
+					$("#titlebox").css("background-color", "#2B91CC");
+				});
+			}, 250);
+			firstClick = true;
+		}
+		else
 		{
-			location.href = "cards.html";
-		}, 250);
+			console.log("Changing to cards.html");
+			setTimeout(function()
+			{
+				location.href = "cards.html";
+			}, 250);
+		}
+
 	});
 
 $(document).ready(function()
 {
 	setInterval(function()
 	{
-		$("#button").transit({rotate: "0.5deg"}, 250);
+		$("#button").transit({rotate: "0.25deg"}, 250);
 	}, 500);
 
 	setTimeout(function()
 	{
 		setInterval(function()
 		{
-			$("#button").transit({rotate: "-0.5deg"}, 250);
+			$("#button").transit({rotate: "-0.25deg"}, 250);
 		}, 500);
 
 	}, 500);

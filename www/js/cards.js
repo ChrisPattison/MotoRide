@@ -1,5 +1,14 @@
 $("#navmap").transit({rotate: "-45deg"}, 1000);
 
+$("#button").click(function()
+{
+	console.log("Changing to navigation.html");
+	setTimeout(function()
+	{
+		location.href = "navigation.html";
+	}, 250);
+});
+
 $(document).ready(function()
 {
 	$("#navmap").transit({rotate: "0deg", right: 0, opacity: 1}, 1000);

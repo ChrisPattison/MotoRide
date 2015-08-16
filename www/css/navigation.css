@@ -65,10 +65,11 @@ p.address{
     margin-bottom: 5px;
 }
 
-img#blue{
+img#button{
     margin-top: 40px;
     height: 40%;
     width: 40%;
+    position: relative;
     opacity: 0;
 }
 

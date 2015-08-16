@@ -94,10 +94,12 @@ div#bikes
     margin-top: auto;
     margin-bottom: auto;
     left: -170px;
-    bottom: 180px;
-    height:400px;
+    bottom: 400px;
+    background-color: rgba(0,0,0,0.2);
+    height:200px;
     width: 2000px;
     overflow: hidden;
+    opacity: 0;
 }
 
 
