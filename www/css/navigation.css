@@ -82,5 +82,6 @@ img.card{
 div#hand{
     position: absolute;
     bottom: 140px;
+    left: 0px;
 }
 
