@@ -1,13 +1,11 @@
 $("#button").click(function()
 	{
-		console.log("Changing to main.html");
+		console.log("Changing to creds.html");
 		setTimeout(function()
 		{
-			location.href = "main.html";
+			location.href = "cards.html";
 		}, 250);
 	});
-
-
 
 $(document).ready(function()
 {
