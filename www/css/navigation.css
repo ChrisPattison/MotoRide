@@ -35,12 +35,28 @@ img#bottomBar {
     margin-top: 125px;
     margin-bottom: 25px;
     font-size: 30px;
+    position: relative;
+    opacity: 0;
 }
 
 #next {
     font-size: 45px;
     margin-top: 20px;
+    opacity: 0;
     margin-bottom: 10px;
+    position: relative;
+}
+
+#street
+{
+    opacity: 0;
+    position: relative;
+}
+
+#city
+{
+    opacity: 0;
+    position: relative;
 }
 
 p.address{
@@ -53,12 +69,14 @@ img#blue{
     margin-top: 40px;
     height: 40%;
     width: 40%;
+    opacity: 0;
 }
 
 img.card{
     padding: 1vh 2vw;
     height: 18%;
     width: 18%;
+    position: relative;
 }
 div#hand{
     position: absolute;
