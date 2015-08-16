@@ -93,7 +93,7 @@ div#bikes
     position: absolute;
     margin-top: auto;
     margin-bottom: auto;
-    left: 120px;
+    left: -170px;
     bottom: 180px;
     height:400px;
     width: 2000px;
@@ -105,6 +105,8 @@ img.bike
 {
     display: inline;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 240px;
+    height: 180px;
 }
