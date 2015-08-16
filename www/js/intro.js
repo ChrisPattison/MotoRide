@@ -23,25 +23,25 @@ $(document).ready(function()
 
 	}, 500);
 
-	setTimeout(function()
-	{
-		$("#titlebox").animate({opacity: 1}, 350, undefined, function()
-		{
-			$("#welcome").animate({opacity: 1}, 350, undefined, function()
-			{
-				$("#built").animate({opacity: 1}, 350, undefined, function()
-				{
-					$("#ultimate").animate({opacity: 1}, 350, undefined, function()
-					{
-						setTimeout(function()
-						{
-							$("#button").animate({opacity: 1}, 500);
-						}, 300);
+	setTimeout(function() {
+
+		$("#topBar").transit({top: 0}, 1500);
+		$("#bottomBar").transit({bottom: 0}, 1500);
+		setTimeout(function () {
+			setTimeout(function () {
+				$("#titlebox").animate({opacity: 1}, 350, undefined, function () {
+					$("#welcome").animate({opacity: 1}, 350, undefined, function () {
+						$("#built").animate({opacity: 1}, 350, undefined, function () {
+							$("#ultimate").animate({opacity: 1}, 350, undefined, function () {
+								setTimeout(function () {
+									$("#button").animate({opacity: 1}, 500);
+								}, 300);
+							});
+						});
 					});
 				});
-			});
-		});
-	}, 200);
-
+			}, 200);
+		}, 1000);
+	}, 500);
 });
 

@@ -18,7 +18,7 @@ div#padding
 
 img#topBar {
     position: absolute;;
-    top: 0;
+    top: -40px;
     left: 0;
     width: 100%;
 }
@@ -26,7 +26,7 @@ img#topBar {
 
 img#bottomBar {
     position: absolute;
-    bottom: 0;
+    bottom: -70px;
     left: 0;
     width: 100%;
 }
