@@ -6,6 +6,9 @@ body
     appearance:none;
     font-family: arial, sans-serif;
     color: #F5F6FC;
+    background-image: url("../img/introbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 div#padding
