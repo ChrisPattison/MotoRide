@@ -43,6 +43,10 @@ img#navmap{
     border-bottom-color: #C0CCD6;
     border-bottom-style: solid;
     border-bottom-width: 5px;
+    position: relative;
+    right: -300px;
+    opacity: 0;
+    z-index: 10;
 }
 
 div.block {
@@ -50,6 +54,7 @@ div.block {
     background-color: #F5F6FC;
     padding: 2vh 40px;
     margin: 0;
+    position: relative;
 }
 
 p.dataname {
@@ -69,6 +74,29 @@ div.groupname {
     display: inline-block;
     width: 70%;
     float: left;
+}
+
+div#group2 {
+    position: relative;
+    top: -150px;
+    z-index: 6;
+    opacity: 0;
+}
+
+div#group3
+{
+    position: relative;
+    top: -150px;
+    z-index: 5;
+    opacity: 0;
+}
+
+div#group1
+{
+    position: relative;
+    top: -150px;
+    opacity: 0;
+    z-index: 7;
 }
 
 div.solo {
@@ -109,6 +137,10 @@ div#group0
 {
     padding-top: 20px;
     padding-bottom: 20px;
+    position: relative;
+    opacity: 0;
+    top: -150px;
+    z-index: 8;
 }
 
 p#rideBig
@@ -131,11 +163,17 @@ div.lineback{
     background-color: #F5F6FC;
     margin-right: auto;
     margin-left: auto;
+    opacity: 0;
+    z-index: 100;
 }
 
 div#tripstat
 {
     padding-bottom: 20px;
+    position: relative;
+    top: -150px;
+    opacity: 0;
+    z-index: 9;
 }
 
 div.line {

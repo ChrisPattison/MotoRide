@@ -24,7 +24,6 @@ $(document).ready(function()
 	}, 500);
 
 	setTimeout(function() {
-
 		$("#topBar").transit({top: 0}, 1500);
 		$("#bottomBar").transit({bottom: 0}, 1500);
 		setTimeout(function () {
