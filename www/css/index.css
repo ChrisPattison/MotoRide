@@ -10,6 +10,7 @@ body {
     padding: 0;
     margin: 0;
     opacity: 0;
+    overflow: hidden;
 }
 
 iframe {
@@ -21,4 +22,5 @@ iframe {
     width: 540px;
     padding: 0;
     border: 0;
+    overflow: hidden;
 }
