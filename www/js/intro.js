@@ -7,6 +7,8 @@ $("#button").click(function()
 		}, 250);
 	});
 
+
+
 $(document).ready(function()
 {
 	setInterval(function()
