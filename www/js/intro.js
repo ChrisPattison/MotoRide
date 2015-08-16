@@ -6,3 +6,42 @@ $("#button").click(function()
 			location.href = "main.html";
 		}, 250);
 	});
+
+$(document).ready(function()
+{
+	setInterval(function()
+	{
+		$("#button").transit({rotate: "0.5deg"}, 250);
+	}, 500);
+
+	setTimeout(function()
+	{
+		setInterval(function()
+		{
+			$("#button").transit({rotate: "-0.5deg"}, 250);
+		}, 500);
+
+	}, 500);
+
+	setTimeout(function()
+	{
+		$("#titlebox").animate({opacity: 1}, 350, undefined, function()
+		{
+			$("#welcome").animate({opacity: 1}, 350, undefined, function()
+			{
+				$("#built").animate({opacity: 1}, 350, undefined, function()
+				{
+					$("#ultimate").animate({opacity: 1}, 350, undefined, function()
+					{
+						setTimeout(function()
+						{
+							$("#button").animate({opacity: 1}, 500);
+						}, 300);
+					});
+				});
+			});
+		});
+	}, 200);
+
+});
+
