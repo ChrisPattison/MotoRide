@@ -20,6 +20,15 @@ img#topBar {
     width: 100%;
 }
 
+
+img#bottomBar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
 h1#welcome
 {
     text-align: center;
@@ -48,11 +57,4 @@ div#button p
 {
     padding: 10px 40px;
     font-size: 24px;
-}
-
-img#bottomBar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
 }
